@@ -1,3 +1,4 @@
 # English strings go here for Rails i18n
 en:
-  # my_label: "My label"
+  permission_view_vendors: View Vendors
+  permission_vote_vendors: Vote Vendors

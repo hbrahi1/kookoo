@@ -7,4 +7,8 @@ Redmine::Plugin.register :zlabia do
   author_url 'http://kookoo.com/about'
   
   menu :application_menu, :vendors, { :controller => 'vendors', :action => 'index' }, :caption => 'Vendors'
+
+  #project_module :vendors do
+  permission :view_vendors, :vendors => :index
+  #end
 end
