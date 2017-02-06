@@ -27,5 +27,5 @@ production:
   database: kookoo
   host: $OPENSHIFT_POSTGRESQL_DB_HOST
   port: $OPENSHIFT_POSTGRESQL_DB_PORT
-  username: admin6zurcn6
-  password: bYkAcjxQepfr
+  username: adminqfbpiyb
+  password: lIceNuTtjabA
