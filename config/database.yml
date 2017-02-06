@@ -20,6 +20,7 @@ test:
   <<: *default
   database: db/test.sqlite3
 
+#Connection URL: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIFT_POSTGRESQL_DB_PORT
 production:
   adapter: postgresql
   encoding: unicode
@@ -27,5 +28,5 @@ production:
   database: kookoo
   host: $OPENSHIFT_POSTGRESQL_DB_HOST
   port: $OPENSHIFT_POSTGRESQL_DB_PORT
-  username: adminqfbpiyb
-  password: lIceNuTtjabA
+  username: adminqwdkc6v
+  password: t9mm-f-Kw5sd
