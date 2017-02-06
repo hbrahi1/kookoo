@@ -21,5 +21,11 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: kookoo
+  host: $OPENSHIFT_POSTGRESQL_DB_HOST
+  port: $OPENSHIFT_POSTGRESQL_DB_PORT
+  username: admin6zurcn6
+  password: bYkAcjxQepfr
